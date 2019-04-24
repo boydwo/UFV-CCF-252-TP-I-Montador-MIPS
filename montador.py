@@ -340,6 +340,6 @@ elif instrucoesI.any(entrada[0]):
     saidaBin += "{0:05b}".format(saida[2])
     saidaBin += "{0:016b}".format(saida[3])
 
-print(entrada) # hello world
+print(entrada)
 print(saidaBin)
 print(saida)
