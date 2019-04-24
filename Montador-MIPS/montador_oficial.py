@@ -17,22 +17,23 @@ for line in arquivo:
     vetor_linha = vetor_linha.replace(",", "")  #retira a(virgula)
     vetor_linha = vetor_linha.split(" ") # muda o vetor string de caracter por um vetor palavra
 
-
+    saida = [0] * 6
     #posição 1 da entrada em add | sub | and | or | nor |
-    if ((vetor_linha[0] == "add") | (vetor_linha[0] == "sub") | (vetor_linha[0] == "and") | (vetor_linha[0] == "or") | (vetor_linha[0] == "nor")):
-        saida = [0] * 6
+    if ((vetor_linha[0] == "add") or (vetor_linha[0]== "sub") or (vetor_linha[0]=="and") or (vetor_linha[0]=="or") or (vetor_linha[0]=="nor") ):
+
         if(vetor_linha[0] == "add"):
-            saida[5] = '100001' #32
+            saida[5] = '100001' #32 decimal
         elif (vetor_linha[0] == "sub"):
-            saida[5] = "100010" #34
+            saida[5] = "100010" #34 decimal
         elif(vetor_linha[0] == "and"):
-            saida[5] = "100100" #36
+            saida[5] = "100100" #36 decimal
         elif(vetor_linha[0] == "or"):
-            saida[5] == "100101" #37
+            saida[5] = "100101" #37 decimal
         elif(vetor_linha[0] == "nor"):
-            saida[5] == "100111" #39
-    print(vetor_linha)
+            saida[5] = "100111" #39 decimal
+
     print(saida)
+
 
 
 arq.close()
