@@ -2,24 +2,19 @@ class listTest(): # tad que implementa uma lista
     def __init__(self, lista):
         self.lista = lista
 
-    def any(self, comparador): # retorna 1 caso algum elemento da lista seja o passado
+    def any(self, comparador): # retorna 1 caso algum elemento da lista seja o passado na comparação
         for i in self.lista:
             if i == comparador:
                 return 1
         return 0
 
-aux= input().split(" ",1)
-entrada = [aux[0]]
-auxEntrada = aux[1].split(",")
+aux= input().split(" ",1) #divide a string no primeiro espaço
+entrada = [aux[0]] #pega a primeira parte da "divisão", ex: 'add', 'sub',...
+auxEntrada = aux[1].split(",") # divide q segunda parte do primeiro split pelas vírgulas
 for i in auxEntrada:
-    entrada.append(i.strip())
+    entrada.append(i.strip()) #cocatena os parâmetros sem espaço na entrada
+                              #strip tira todos os espaços, \0, \n
 
-
-#definindo se é do tipo r ou tipo i
-#if entrada[0] == ('add') or ('sub') or ('and') or ('or') or ('nor') or ('sll') or ('srl'):
-#    saida = [0]*6
-#if entrada[0] == ('addi') or ('ori') or ('andi'):
-#    saida = [0]*4
 
 if(entrada[0] == ('sll')) or (entrada[0] == ('srl')):
     saida = [0] * 6
