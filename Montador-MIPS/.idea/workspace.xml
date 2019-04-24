@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a2f9a89f-5106-44e7-ad1c-7e718da407f8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemplo_entrada.asm" beforeDir="false" afterPath="$PROJECT_DIR$/exemplo_entrada.asm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/montador_oficial.py" beforeDir="false" afterPath="$PROJECT_DIR$/montador_oficial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_mariano/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_mariano/.idea/TPOC1-2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_mariano/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_mariano/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_mariano/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_mariano/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_mariano/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_mariano/TPOC1.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_mariano/TPOC1.cbp.save-failed" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_mariano/TPOC1.cscope_file_list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_mariano/TPOC1.depend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_mariano/TPOC1.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_mariano/arq.asm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_mariano/arq.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_mariano/bin/Debug/TPOC1.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_mariano/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_mariano/cmake-build-debug/CMakeFiles/3.9.6/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_mariano/cmake-build-debug/CMakeFiles/3.9.6/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_mariano/cmake-build-debug/CMakeFiles/3.9.6/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_mariano/cmake-build-debug/CMakeFiles/3.9.6/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_mariano/cmake-build-debug/CMakeFiles/3.9.6/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_mariano/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_mariano/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_mariano/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_mariano/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_mariano/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_mariano/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_mariano/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_mariano/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_mariano/cmake-build-debug/CMakeFiles/TPOC1_2.dir/C.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_mariano/cmake-build-debug/CMakeFiles/TPOC1_2.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_mariano/cmake-build-debug/CMakeFiles/TPOC1_2.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_mariano/cmake-build-debug/CMakeFiles/TPOC1_2.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_mariano/cmake-build-debug/CMakeFiles/TPOC1_2.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_mariano/cmake-build-debug/CMakeFiles/TPOC1_2.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_mariano/cmake-build-debug/CMakeFiles/TPOC1_2.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_mariano/cmake-build-debug/CMakeFiles/TPOC1_2.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_mariano/cmake-build-debug/CMakeFiles/TPOC1_2.dir/main.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_mariano/cmake-build-debug/CMakeFiles/TPOC1_2.dir/montador.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_mariano/cmake-build-debug/CMakeFiles/TPOC1_2.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_mariano/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_mariano/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_mariano/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_mariano/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_mariano/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_mariano/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_mariano/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_mariano/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_mariano/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_mariano/cmake-build-debug/TPOC1_2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_mariano/cmake-build-debug/TPOC1_2.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_mariano/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_mariano/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_mariano/mips1.asm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_mariano/montador.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_mariano/montador.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_mariano/obj/Debug/main.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_mariano/obj/Debug/montador.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_mariano/teste.txt" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Montador-MIPS" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/montador_oficial.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="34" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/teste.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="30" column="36" lean-forward="true" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="/tmp/ark-lgOExu/montadorMIPS/montador.py" />
+        <option value="$PROJECT_DIR$/montador.py" />
+        <option value="$PROJECT_DIR$/montador_primario.py" />
+        <option value="$PROJECT_DIR$/leitura_exemplo.py" />
+        <option value="$PROJECT_DIR$/montador_oficial.py" />
+        <option value="$PROJECT_DIR$/teste.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="680" />
+    <option name="width" value="690" />
+    <option name="height" value="740" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Montador-MIPS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Montador-MIPS" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.teste">
+    <configuration name="leitura_exemplo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="montadorMIPS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leitura_exemplo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="montador" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="montadorMIPS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\marco\PycharmProjects\teste\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/montador.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="montador_oficial" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="montadorMIPS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/montador_oficial.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="montador_primario" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="montadorMIPS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/montador_primario.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="teste" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="montadorMIPS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/teste.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.teste" />
+        <item itemvalue="Python.montador_oficial" />
+        <item itemvalue="Python.montador_primario" />
+        <item itemvalue="Python.leitura_exemplo" />
+        <item itemvalue="Python.montador" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a2f9a89f-5106-44e7-ad1c-7e718da407f8" name="Default Changelist" comment="" />
+      <created>1555807093908</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555807093908</updated>
+      <workItem from="1555807101545" duration="11430000" />
+      <workItem from="1555893505688" duration="4419000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="15849000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49791667" visible="true" weight="0.12879789" />
+      <window_info id="Structure" order="1" sideWeight="0.50208336" side_tool="true" weight="0.12879789" />
+      <window_info id="Favorites" order="2" sideWeight="0.5010799" side_tool="true" weight="0.12879789" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924472" weight="0.32107496" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007553" side_tool="true" weight="0.3280255" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32786885" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="R Graphics" order="4" />
+      <window_info anchor="right" id="R Packages" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/montadorMIPS$montador.coverage" NAME="montador Coverage Results" MODIFIED="1555897676122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/montadorMIPS$montador__1_.coverage" NAME="montador (1) Coverage Results" MODIFIED="1555897323274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/tmp/ark-lgOExu/montadorMIPS" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file:///tmp/ark-lgOExu/montadorMIPS/montador.py" />
+    <entry file="file://$PROJECT_DIR$/montador.py" />
+    <entry file="file://$PROJECT_DIR$/leitura_exemplo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/montador_primario.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1884">
+          <caret line="324" selection-start-line="324" selection-end-line="324" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/montador_oficial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="34" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teste.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="30" column="36" lean-forward="true" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
