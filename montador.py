@@ -1,8 +1,19 @@
-import re
+class listTest(): # tad que implementa uma lista
+    def __init__(self, lista):
+        self.lista = lista
 
-entrada = input() #entrada do comando em MIPS
+    def any(self, comparador): # retorna 1 caso algum elemento da lista seja o passado
+        for i in self.lista:
+            if i == comparador:
+                return 1
+        return 0
 
-entrada = re.split("[, ]",entrada)  #dividindo a string em posições do vetor
+aux= input().split(" ",1)
+entrada = [aux[0]]
+auxEntrada = aux[1].split(",")
+for i in auxEntrada:
+    entrada.append(i.strip())
+
 
 #definindo se é do tipo r ou tipo i
 #if entrada[0] == ('add') or ('sub') or ('and') or ('or') or ('nor') or ('sll') or ('srl'):
@@ -224,7 +235,7 @@ if ((entrada[0] == 'add') or (entrada[0] == 'sub') or (entrada[0] == 'and') or (
 if (entrada[0] == 'addi'):
     saida = [0] * 4
     saida[0] = 8
-    saida[3] = entrada[3] #definindo o valor do endereço
+    saida[3] = int(entrada[3]) #definindo o valor do endereço
 
     # posição dois|três da entrada do addi
     # $s posição 1
@@ -317,5 +328,23 @@ if (entrada[0] == 'addi'):
     if ((entrada[3]) == '$t7'):
         saida[2] = 15
 
+saidaBin = ""
+instrucoesR = listTest(['add', 'sub', 'and', 'or', 'nor', 'sll', 'srl']) #comparo se entrada[1] é igual a algum elemento da lista
+instrucoesI = listTest(['addi', 'ori' , 'andi'])
+if instrucoesR.any(entrada[0]):
+    saidaBin += "{0:06b}".format(saida[0])
+    saidaBin += "{0:05b}".format(saida[1])
+    saidaBin += "{0:05b}".format(saida[2])
+    saidaBin += "{0:05b}".format(saida[3])
+    saidaBin += "{0:05b}".format(saida[4])
+    saidaBin += "{0:06b}".format(saida[5])
+
+elif instrucoesI.any(entrada[0]):
+    saidaBin += "{0:06b}".format(saida[0])
+    saidaBin += "{0:05b}".format(saida[1])
+    saidaBin += "{0:05b}".format(saida[2])
+    saidaBin += "{0:016b}".format(saida[3])
+
 print(entrada)
+print(saidaBin)
 print(saida)
