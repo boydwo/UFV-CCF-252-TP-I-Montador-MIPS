@@ -324,7 +324,7 @@ if (entrada[0] == 'addi'):
         saida[2] = 15
 
 saidaBin = ""
-instrucoesR = listTest(['add', 'sub', 'and', 'or', 'nor', 'sll', 'srl']) #comparo se entrada[1] é igual a algum elemento da lista
+instrucoesR = listTest(['add', 'sub', 'and', 'or', 'nor', 'sll', 'srl']) #comparo se entrada[0] é igual a algum elemento da lista
 instrucoesI = listTest(['addi', 'ori' , 'andi'])
 if instrucoesR.any(entrada[0]):
     saidaBin += "{0:06b}".format(saida[0])
