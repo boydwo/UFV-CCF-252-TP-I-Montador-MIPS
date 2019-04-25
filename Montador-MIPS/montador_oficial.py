@@ -20,6 +20,11 @@ arquivo = arq.readlines()
     cont = cont + 1
 print(cont) '''
 
+#criação do arquivo de escrita - isso garante q ele se inicie vazio sempre
+arquivo_escrita = open('saida.txt', 'w')
+arquivo_escrita.close()
+
+
 #FOR PEGANDO LINHA POR LINHA
 for line in arquivo:
     #TRATAMENTO
@@ -357,6 +362,16 @@ for line in arquivo:
     print(entrada)
     print(saidaBin)
     print(saida)
+
+    
+    arquivo_escrita = open('saida.txt', 'r') # Abra o arquivo (leitura)
+    conteudo = arquivo_escrita.readlines()
+    conteudo.append(saidaBin+"\n")   # insira seu conteúdo
+
+    arquivo_escrita = open('saida.txt', 'w') # Abre novamente o arquivo (escrita)
+    arquivo_escrita.writelines(conteudo)    # escreva o conteúdo criado anteriormente nele.
+    arquivo_escrita.close()
+
 
 
 
