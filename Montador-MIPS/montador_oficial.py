@@ -364,5 +364,4 @@ for line in arquivo:
 
 
 
-
 arq.close()
