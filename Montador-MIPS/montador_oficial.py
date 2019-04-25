@@ -8,17 +8,10 @@ class listTest(): # tad que implementa uma lista
                 return 1
         return 0
 
-
-
-#contador de linhas do arquivo
+#leitura do arquivo ASM com as entradas
 arq = open('exemplo_entrada.asm', 'r')
 cont = 0
 arquivo = arq.readlines()
-
-# contado linhas do arquivo
-'''for line in arquivo:
-    cont = cont + 1
-print(cont) '''
 
 #criação do arquivo de escrita - isso garante q ele se inicie vazio sempre
 arquivo_escrita = open('saida.txt', 'w')
@@ -363,13 +356,12 @@ for line in arquivo:
     print(saidaBin)
     print(saida)
 
-    
-    arquivo_escrita = open('saida.txt', 'r') # Abra o arquivo (leitura)
+#escrita no arquivo TXT sem sobrescrever
+    arquivo_escrita = open('saida.txt', 'r') # Abre o arquivo (leitura)
     conteudo = arquivo_escrita.readlines()
-    conteudo.append(saidaBin+"\n")   # insira seu conteúdo
-
+    conteudo.append(saidaBin+"\n")   # insere a saida em binario
     arquivo_escrita = open('saida.txt', 'w') # Abre novamente o arquivo (escrita)
-    arquivo_escrita.writelines(conteudo)    # escreva o conteúdo criado anteriormente nele.
+    arquivo_escrita.writelines(conteudo)    # escreve o conteúdo criado anteriormente nele.
     arquivo_escrita.close()
 
 
