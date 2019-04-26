@@ -20,11 +20,11 @@ escolhido.</p>
 <p>O trabalho prático pode ser feito em grupos de até 3 alunos, mas a nota será
 individual e dependente do resultado da entrevista com o professor.
 Cópias de trabalhos práticos serão exemplarmente punidas. A punição será a
-mesma para quem copiou e para quem forneceu o trabalho prático.</p>
+mesma para quem copiou e para quem forneceu o trabalho prático.
 
-Data das entrevistas: A definir.
-Valor do trabalho prático: A definir.
-Forma de entrega: PVANet, em um único arquivo compactado.
+Data das entrevistas: A definir.<br>
+Valor do trabalho prático: A definir.<br>
+Forma de entrega: PVANet, em um único arquivo compactado.<br></p>
 
 <p>O que deve ser entregue:
 <ul>
