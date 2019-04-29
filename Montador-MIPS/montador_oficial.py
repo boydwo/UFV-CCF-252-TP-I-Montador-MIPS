@@ -127,6 +127,8 @@ for line in arquivo:
         elif(entrada[0] == "nor"):
             saida[5] = 39 #39 decimal
 
+        saida[0] = 0
+
         # posição dos registradores $s
         # rd = $s, posição 1, registrador de destino
         if (entrada[1] == '$s0'):
@@ -238,10 +240,17 @@ for line in arquivo:
             saida[2] = 15
 
         
-#entrada em  addi
-    if (entrada[0] == 'addi'):
-        saida = [0] * 4
-        saida[0] = 8
+#entrada em  addi, andi,ori
+    if ((entrada[0] == 'addi') or (entrada[0] == 'andi') or (entrada[0] == 'ori')):
+        
+        #definindo o op_code
+        if(entrada[0] == "addi"):
+            saida[0] = 8   #001000
+        elif (entrada[0] == "andi"):
+            saida[0] = 12  #001100                                                 
+        elif(entrada[0] == "ori"):
+            saida[0] = 13  #001101 
+
         saida[3] = int(entrada[3]) #definindo o valor do endereço
 
         # posição dois|três da entrada do addi
@@ -283,21 +292,21 @@ for line in arquivo:
 
         # $t posicao 1
         if ((entrada[1]) == '$t0'):
-            saida[3] = 8
+            saida[2] = 8
         if ((entrada[1]) == '$t1'):
-            saida[3] = 9
+            saida[2] = 9
         if ((entrada[1]) == '$t2'):
-            saida[3] = 10
+            saida[2] = 10
         if ((entrada[1]) == '$t3'):
-            saida[3] = 11
+            saida[2] = 11
         if ((entrada[1]) == '$t4'):
-            saida[3] = 12
+            saida[2] = 12
         if ((entrada[1]) == '$t5'):
-            saida[3] = 13
+            saida[2] = 13
         if ((entrada[1]) == '$t6'):
-            saida[3] = 14
+            saida[2] = 14
         if ((entrada[1]) == '$t7'):
-            saida[3] = 15
+            saida[2] = 15
 
         # $t posicao 2
         if ((entrada[2]) == '$t0'):
@@ -317,23 +326,6 @@ for line in arquivo:
         if ((entrada[2]) == '$t7'):
             saida[1] = 15
 
-        # $t posicao 3
-        if ((entrada[3]) == '$t0'):
-            saida[2] = 8
-        if ((entrada[3]) == '$t1'):
-            saida[2] = 9
-        if ((entrada[3]) == '$t2'):
-            saida[2] = 10
-        if ((entrada[3]) == '$t3'):
-            saida[2] = 11
-        if ((entrada[3]) == '$t4'):
-            saida[2] = 12
-        if ((entrada[3]) == '$t5'):
-            saida[2] = 13
-        if ((entrada[3]) == '$t6'):
-            saida[2] = 14
-        if ((entrada[3]) == '$t7'):
-            saida[2] = 15
 
     saidaBin = ""
     instrucoesR = listTest(['add', 'sub', 'and', 'or', 'nor', 'sll', 'srl']) #comparo se entrada[1] é igual a algum elemento da lista
