@@ -1,3 +1,28 @@
+def complementoDeDois(valor):
+    if valor < 0:     #responsavel por tirar o sinal negativo o valor, caso haja
+        valor *= -1
+
+    numero = format(valor, 'b') #converte o valor para binario
+
+    val = [int(i) for i in numero] #gera um vetor e preenche cada posicao com a variavel NUMERO
+
+    binInvertido = [1] * (16 - len(val)) #declara um vetor com a quandidade de 1's que serao necessarios para completar os 16 bits
+
+    for i in range(0, len(val)): #completa bitInvertido com o inverso de val
+        if val[i] == 1:
+            binInvertido.append(0)
+        else:
+            binInvertido.append(1)
+
+    for i in range(0, len(binInvertido)): #soma + 1
+        if binInvertido[len(binInvertido) - i - 1] == 0:
+            binInvertido[len(binInvertido) - i - 1] = 1
+            break
+
+        binInvertido[len(binInvertido) - i - 1] = 0
+
+    return ''.join(map(str, binInvertido))
+
 class listTest(): # tad que implementa uma lista
     def __init__(self, lista):
         self.lista = lista
@@ -9,7 +34,8 @@ class listTest(): # tad que implementa uma lista
         return 0
 
 #leitura do arquivo ASM com as entradas
-arq = open('exemplo_entrada.asm', 'r')
+print('Insira o nome do arquivo de entrada (com a extensao do arquivo): ')
+arq = open(input(), 'r')
 cont = 0
 arquivo = arq.readlines()
 
@@ -242,14 +268,14 @@ for line in arquivo:
         
 #entrada em  addi, andi,ori
     if ((entrada[0] == 'addi') or (entrada[0] == 'andi') or (entrada[0] == 'ori')):
-        
+
         #definindo o op_code
         if(entrada[0] == "addi"):
             saida[0] = 8   #001000
         elif (entrada[0] == "andi"):
-            saida[0] = 12  #001100                                                 
+            saida[0] = 12  #001100
         elif(entrada[0] == "ori"):
-            saida[0] = 13  #001101 
+            saida[0] = 13  #001101
 
         saida[3] = int(entrada[3]) #definindo o valor do endereço
 
@@ -330,6 +356,7 @@ for line in arquivo:
     saidaBin = ""
     instrucoesR = listTest(['add', 'sub', 'and', 'or', 'nor', 'sll', 'srl']) #comparo se entrada[1] é igual a algum elemento da lista
     instrucoesI = listTest(['addi', 'ori' , 'andi'])
+
     if instrucoesR.any(entrada[0]):
         saidaBin += "{0:06b}".format(saida[0])
         saidaBin += "{0:05b}".format(saida[1])
@@ -342,7 +369,10 @@ for line in arquivo:
         saidaBin += "{0:06b}".format(saida[0])
         saidaBin += "{0:05b}".format(saida[1])
         saidaBin += "{0:05b}".format(saida[2])
-        saidaBin += "{0:016b}".format(saida[3])
+        if saida[3] >= 0:
+            saidaBin += "{0:016b}".format(saida[3])
+        else:
+            saidaBin += complementoDeDois(saida[3])
 
     print(entrada)
     print(saidaBin)
@@ -355,12 +385,5 @@ for line in arquivo:
     arquivo_escrita = open('saida.txt', 'w') # Abre novamente o arquivo (escrita)
     arquivo_escrita.writelines(conteudo)    # escreve o conteúdo criado anteriormente nele.
     arquivo_escrita.close()
-
-
-
-
-
-
-
 
 arq.close()
