@@ -322,7 +322,7 @@ for linha in arquivoleitura:
             saida[2] = 10
         if ((entrada[3]) == '$t3'):
             saida[2] = 11
-        if ((entrada[3]) == '$t4'):
+        if entrada[3] == '$t4':
             saida[2] = 12
         if ((entrada[3]) == '$t5'):
             saida[2] = 13
