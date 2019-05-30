@@ -16,18 +16,4 @@ escolhido.</p>
 	<li>Suporte a outras bases numéricas no arquivo ASM;</li>
 	<li>Implementação de instruções de carregamento de dados ou desvios.</li>
 </ul></p>
-
-<p>O trabalho prático pode ser feito em grupos de até 3 alunos, mas a nota será
-individual e dependente do resultado da entrevista com o professor.
-Cópias de trabalhos práticos serão exemplarmente punidas. A punição será a
-mesma para quem copiou e para quem forneceu o trabalho prático.
-
-Data das entrevistas: A definir.<br>
-Valor do trabalho prático: A definir.<br>
-Forma de entrega: PVANet, em um único arquivo compactado.<br></p>
-
-<p>O que deve ser entregue:
-<ul>
-	<li>Documentação simplificada do trabalho prático;</li>
-	<li>Arquivo fonte e executável do montador.</li>
-</ul></p>
+<p><img src ="http://www.c-jump.com/bcc/c262c/MIPSAssembly/const_images/mips_assembly.png"></p>
